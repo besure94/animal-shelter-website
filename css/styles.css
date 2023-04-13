@@ -20,21 +20,33 @@
 .beta {
 	width: 300px;
 	float: left;
+	border: 2px solid #ae2012;
+	padding: 4px;
+	margin: 4px;
 }
 
 .charlie {
 	width: 300px;
 	float: left;
+	border: 2px solid #ae2012;
+	padding: 4px;
+	margin: 4px;
 }
 
 .delta {
 	width: 300px;
 	float: left;
+	border: 2px solid #ae2012;
+	padding: 4px;
+	margin: 4px;
 }
 
 .echo {
 	width: 300px;
 	float: left;
+	border: 2px solid #ae2012;
+	padding: 4px;
+	margin: 4px;
 }
 
 body {
