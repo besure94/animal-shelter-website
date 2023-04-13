@@ -1,3 +1,14 @@
+.heading {
+	color: #ae2012;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.columns {
+	color: #ee9b00;
+	font-family: Helvetica;
+}
+
 .alpha {
 	width: 300px;
 	float: left;
@@ -21,6 +32,10 @@
 .echo {
 	width: 300px;
 	float: left;
+}
+
+body {
+	background-color: #001219;
 }
 
 img {
