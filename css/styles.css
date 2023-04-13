@@ -18,7 +18,12 @@
 	float: left;
 }
 
+.echo {
+	width: 300px;
+	float: left;
+}
+
 img {
-	width: 400px;
+	width: 300px;
 	height: auto;
 }
