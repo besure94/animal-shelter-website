@@ -23,7 +23,7 @@
 .alpha {
 	width: 300px;
 	float: left;
-	border: 2px solid #ae2012;
+	border: 2px solid #ee9b00;
 	padding: 4px;
 	margin: 4px;
 }
@@ -39,7 +39,7 @@
 .beta {
 	width: 300px;
 	float: left;
-	border: 2px solid #ae2012;
+	border: 2px solid #0a9396;
 	padding: 4px;
 	margin: 4px;
 }
@@ -47,7 +47,7 @@
 .charlie {
 	width: 300px;
 	float: left;
-	border: 2px solid #ae2012;
+	border: 2px solid #ee9b00;
 	padding: 4px;
 	margin: 4px;
 }
@@ -63,7 +63,7 @@
 .delta {
 	width: 300px;
 	float: left;
-	border: 2px solid #ae2012;
+	border: 2px solid #0a9396;
 	padding: 4px;
 	margin: 4px;
 }
@@ -71,7 +71,7 @@
 .echo {
 	width: 300px;
 	float: left;
-	border: 2px solid #ae2012;
+	border: 2px solid #ee9b00;
 	padding: 4px;
 	margin: 4px;
 }
