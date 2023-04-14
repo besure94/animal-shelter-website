@@ -1,5 +1,10 @@
+:root {
+	--yellow: #ee9b00;
+	--blue: #0a9396;
+}
+
 .heading {
-	color: #0a9396;
+	color: var(--blue);
 	font-family: Courier New;
 	text-align: center;
 	font-style: italic;
@@ -7,39 +12,65 @@
 
 .heading p {
 	font-style: italic;
-	color: #ee9b00;
+	color: var(--yellow);
 	font-weight: 600;
 }
 
 .columns {
-	color: #ee9b00;
+	color: var(--yellow);
 	font-family: Georgia;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.animal-card {
+	transition: ease-in-out;
+	width: 300px;
+	float: left;
+	padding: 4px;
+	margin: 4px;
+}
+
+.animal-card:hover {
+	box-shadow: 5px 5px 20px var(--yellow);
+	width: 325px;
+	height: auto;
+}
+
+.card-color-blue {
+	border: 2px solid var(--blue);
+	color: var(--blue);
+}
+
+.card-color-yellow {
+	border: 2px solid var(--yellow);
+	color: var(--yellow);
 }
 
 .columns h3 {
 	font-style: italic;
 }
 
-.alpha {
+/* .alpha {
 	width: 300px;
 	float: left;
-	border: 2px solid #ee9b00;
+	border: 2px solid var(--yellow);
 	padding: 4px;
 	margin: 4px;
 }
 
 .alpha h3 {
-	color: #0a9396;
+	color: var(--blue);
 }
 
 .alpha p {
-	color: #0a9396;
+	color: var(--blue);
 }
 
 .beta {
 	width: 300px;
 	float: left;
-	border: 2px solid #0a9396;
+	border: 2px solid var(--blue);
 	padding: 4px;
 	margin: 4px;
 }
@@ -47,23 +78,23 @@
 .charlie {
 	width: 300px;
 	float: left;
-	border: 2px solid #ee9b00;
+	border: 2px solid var(--yellow);
 	padding: 4px;
 	margin: 4px;
 }
 
 .charlie h3 {
-	color: #0a9396;
+	color: var(--blue);
 }
 
 .charlie p {
-	color: #0a9396;
+	color: var(--blue);
 }
 
 .delta {
 	width: 300px;
 	float: left;
-	border: 2px solid #0a9396;
+	border: 2px solid var(--blue);
 	padding: 4px;
 	margin: 4px;
 }
@@ -71,18 +102,18 @@
 .echo {
 	width: 300px;
 	float: left;
-	border: 2px solid #ee9b00;
+	border: 2px solid var(--yellow);
 	padding: 4px;
 	margin: 4px;
 }
 
 .echo h3{
-	color: #0a9396;
+	color: var(--blue);
 }
 
 .echo p {
-	color: #0a9396;
-}
+	color: var(--blue);
+} */
 
 body {
 	background-color: #001219;
