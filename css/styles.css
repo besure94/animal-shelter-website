@@ -17,6 +17,14 @@
 	margin: 4px;
 }
 
+.alpha h3 {
+	color: #0a9396;
+}
+
+.alpha p {
+	color: #0a9396;
+}
+
 .beta {
 	width: 300px;
 	float: left;
@@ -33,6 +41,14 @@
 	margin: 4px;
 }
 
+.charlie h3 {
+	color: #0a9396;
+}
+
+.charlie p {
+	color: #0a9396;
+}
+
 .delta {
 	width: 300px;
 	float: left;
@@ -47,6 +63,14 @@
 	border: 2px solid #ae2012;
 	padding: 4px;
 	margin: 4px;
+}
+
+.echo h3{
+	color: #0a9396;
+}
+
+.echo p {
+	color: #0a9396;
 }
 
 body {
